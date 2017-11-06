@@ -10,9 +10,10 @@ List all appointments for this Sunday
 Delete my 9am appointment
 
 
-# How to execute?
-
+## How to execute?
+```
 $ npm install
 $ node index.js
+```
 
 Then browse to http://localhost:3000

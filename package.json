@@ -4,6 +4,9 @@
   "description": "my first socket.io app",
   "dependencies": {
     "express": "^4.15.2",
+    "https": "^1.0.0",
+    "moment": "^2.19.1",
+    "redis-js": "^0.1.2",
     "socket.io": "^1.7.3"
   },
   "scripts": {

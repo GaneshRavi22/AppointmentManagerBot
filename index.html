@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Socket.IO chat</title>
+    <title>ChatBot Ganesh</title>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body { font: 13px Helvetica, Arial; }
@@ -30,7 +30,11 @@
           return false;
         });
         socket.on('chat message', function(msg){
-          $('#messages').append($('<li>').text(msg));
+          $('#messages').append($('<li>').text("User request: " + msg));
+          window.scrollTo(0, document.body.scrollHeight);
+        });
+        socket.on('bot message', function(msg){
+          $('#messages').append($('<li>').text("Bot response: " + msg));
           window.scrollTo(0, document.body.scrollHeight);
         });
       });

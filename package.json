@@ -1,7 +1,7 @@
 {
-  "name": "socket-chat-example",
+  "name": "appointment-manager-chatbot",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "my first chatbot app",
   "dependencies": {
     "express": "^4.15.2",
     "https": "^1.0.0",

@@ -1,13 +1,10 @@
-# chat-example
+# ChatBot - Appointment Manager
 
-This is the source code for a very simple chat example used for
-the [Getting Started](http://socket.io/get-started/chat/) guide
-of the Socket.IO website.
+This is a simple CHatBot built using wit.ai for adding/deleting/listing appointments.
 
-Please refer to it to learn how to run this application.
+Simple commands are:
 
-You can also spin up a free Heroku dyno to test it out:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
-
-Besides, the application is deployed on [Now](https://zeit.co/now): https://socketio-chat-example.now.sh/
+Add an appointment
+Add a new appointment for 9am tomorrow
+List all appointments for this Sunday
+Delete my 9am appointment
